@@ -13,29 +13,37 @@
     <title>Login Template</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+<!--loginOnload() is used to start the animation of the form when the website load-->
 <body onload="loginOnload()">
 
+    <!--The right section of the website-->
     <div class="login-side-text">
+        <!--Logo-->
         <img src="images/logo.jpg" alt="" class="logo">
+        <!--Website Name-->
         <div class="login-text-main">Website Name</div>
+        <!--(Optional) A Qoute-->
         <div class="login-qoute">A new platform to connect</div>
     </div>
 
+    <!--Login Form section-->
     <div class="loginBox">
         <div class="content" id="login-card">
             <h2>Login</h2>
             <form>
+                <!--Inputs-->
                 <p>Email</p>
                 <input type="text" name="email" placeholder="Enter Email"/>
                 <p>Password</p>
                 <input type="password" name="password" placeholder="******"/>
                 <input type="submit" name="submit" value="Login"/>
+                <!--Other options-->
                 <a class="forget-pass" href="#">Forget Password</a>
                 <a class="create-acc" href="#">Create an account</a>
             </form>
         </div>
     </div>
-
+    <!--Link to js file-->
     <script src="js/login-page.js"></script>
 </body>
 </html>
